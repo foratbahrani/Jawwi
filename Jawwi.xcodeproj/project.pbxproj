@@ -13,6 +13,15 @@
 		AA0A1070239AD84E002B241D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0A106E239AD84E002B241D /* Main.storyboard */; };
 		AA0A1072239AD84F002B241D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0A1071239AD84F002B241D /* Assets.xcassets */; };
 		AA0A1075239AD84F002B241D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0A1073239AD84F002B241D /* LaunchScreen.storyboard */; };
+		AA0A107D239AD8BC002B241D /* Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A107C239AD8BC002B241D /* Designable.swift */; };
+		AA0A107F239AEAE2002B241D /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A107E239AEAE2002B241D /* API.swift */; };
+		AA0A1081239AEB51002B241D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A1080239AEB51002B241D /* SwiftyJSON.swift */; };
+		AA0A1083239AF0E6002B241D /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A1082239AF0E6002B241D /* DateExtension.swift */; };
+		AAE57BA2239B6C9F00C768F9 /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE57BA1239B6C9F00C768F9 /* CitiesViewController.swift */; };
+		AAE57BA8239B724400C768F9 /* UIControl+Tactile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE57BA4239B724400C768F9 /* UIControl+Tactile.swift */; };
+		AAE57BA9239B724400C768F9 /* Utilities+Tactile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE57BA5239B724400C768F9 /* Utilities+Tactile.swift */; };
+		AAE57BAA239B724400C768F9 /* UIView+Tactile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE57BA6239B724400C768F9 /* UIView+Tactile.swift */; };
+		AAE57BAB239B724400C768F9 /* Tactile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE57BA7239B724400C768F9 /* Tactile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		AA0A1071239AD84F002B241D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA0A1074239AD84F002B241D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA0A1076239AD84F002B241D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0A107C239AD8BC002B241D /* Designable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Designable.swift; sourceTree = "<group>"; };
+		AA0A107E239AEAE2002B241D /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		AA0A1080239AEB51002B241D /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		AA0A1082239AF0E6002B241D /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		AAE57BA1239B6C9F00C768F9 /* CitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
+		AAE57BA4239B724400C768F9 /* UIControl+Tactile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+Tactile.swift"; sourceTree = "<group>"; };
+		AAE57BA5239B724400C768F9 /* Utilities+Tactile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Utilities+Tactile.swift"; sourceTree = "<group>"; };
+		AAE57BA6239B724400C768F9 /* UIView+Tactile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Tactile.swift"; sourceTree = "<group>"; };
+		AAE57BA7239B724400C768F9 /* Tactile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tactile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +80,26 @@
 				AA0A106E239AD84E002B241D /* Main.storyboard */,
 				AA0A1071239AD84F002B241D /* Assets.xcassets */,
 				AA0A1073239AD84F002B241D /* LaunchScreen.storyboard */,
+				AA0A107C239AD8BC002B241D /* Designable.swift */,
+				AA0A107E239AEAE2002B241D /* API.swift */,
+				AA0A1080239AEB51002B241D /* SwiftyJSON.swift */,
+				AA0A1082239AF0E6002B241D /* DateExtension.swift */,
 				AA0A1076239AD84F002B241D /* Info.plist */,
+				AAE57BA3239B724400C768F9 /* Tactile */,
+				AAE57BA1239B6C9F00C768F9 /* CitiesViewController.swift */,
 			);
 			path = Jawwi;
+			sourceTree = "<group>";
+		};
+		AAE57BA3239B724400C768F9 /* Tactile */ = {
+			isa = PBXGroup;
+			children = (
+				AAE57BA4239B724400C768F9 /* UIControl+Tactile.swift */,
+				AAE57BA5239B724400C768F9 /* Utilities+Tactile.swift */,
+				AAE57BA6239B724400C768F9 /* UIView+Tactile.swift */,
+				AAE57BA7239B724400C768F9 /* Tactile.swift */,
+			);
+			path = Tactile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +174,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA0A106D239AD84E002B241D /* ViewController.swift in Sources */,
+				AAE57BA9239B724400C768F9 /* Utilities+Tactile.swift in Sources */,
+				AAE57BAA239B724400C768F9 /* UIView+Tactile.swift in Sources */,
+				AA0A1083239AF0E6002B241D /* DateExtension.swift in Sources */,
+				AA0A107D239AD8BC002B241D /* Designable.swift in Sources */,
 				AA0A1069239AD84E002B241D /* AppDelegate.swift in Sources */,
+				AAE57BAB239B724400C768F9 /* Tactile.swift in Sources */,
+				AAE57BA8239B724400C768F9 /* UIControl+Tactile.swift in Sources */,
+				AA0A1081239AEB51002B241D /* SwiftyJSON.swift in Sources */,
+				AAE57BA2239B6C9F00C768F9 /* CitiesViewController.swift in Sources */,
 				AA0A106B239AD84E002B241D /* SceneDelegate.swift in Sources */,
+				AA0A107F239AEAE2002B241D /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
